@@ -1,0 +1,1 @@
+# enriptador_texto_OracleONE
