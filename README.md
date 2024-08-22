@@ -1,4 +1,4 @@
-# # Encriptador de Textp 📋
+# # Encriptador de Texto 📋
 Este es mi Encriptador de Texto, realizado en el programa Oracle_ONE de Alura Latam.
 
 ## website-responsvive 🚀
@@ -18,8 +18,6 @@ _Puedes descargar el repositorio y consultar el Código de las siguientes manera
 <img src="images/previewDos.png" alt="preview" width="680px" align-items = center/>
 
 <img src="images/previewTres.png" alt="preview" width="680px" align-items = center/>
-
-<img src="images/previewCuatro.png" alt="preview" width="680px" align-items = center/>
 
 ## Autor ✒️
 
