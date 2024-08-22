@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/Buscar_Icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador De Texto</title>
+</head>
+<body>
+
+    <!--Encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img src="images/Logo.png" alt="Logo_Alura" class="logo">
+        </a>
+    </header>
+
+    <!-- Sec Principal-->
+     <main>
+        <section class="encriptador__texto">
+            <textarea class="encriptador__texto__area" placeholder="Ingrese el texto aqui" id="input-text"></textarea>
+            <div class="encriptador__aviso">
+                <img src="images/aviso.svg" alt="Aviso_imagen" class="encriptador__aviso__img">
+                <p class="encriptador__aviso__texto">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador__contenedor">
+                <button type="submit" class="encriptador__contenedor_btn_encriptar" id="encriptar-btn">Encriptar</button>
+                <button type="submit" class="encriptador__contenedor_btn_desencriptar" id="desencriptar-btn">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta__contenedor">
+                <img src="images/Muñeco.png" alt="Imagen_Ejemplo" class="tarjeta__contenedor__img">
+                <p class="tarjeta__contenedor__textoUno">Ningun mensaje fue encontrado</p>
+                <p class="tarjeta__contenedor__textoDos">Ingrese el texto que deseas encriptar o desencriptar.</p>
+            </div>
+            <textarea type="mensaje" class="tarjeta__evaluar" readonly id="result-text"></textarea>
+            <button type="submit" class="tarjeta__btn__copiar" id="copiar">Copiar</button>
+        </section>
+     </main>
+
+     <!--Pie de Pagina-->
+     <footer>
+        <p class="copyright">&copy; copyright 2024 - Encriptador de Texto - Desarrollado por Daniel Are</p>
+        <a href="https://www.linkedin.com/in/daniel-arellano-antonel-781a44180/" rel="">
+            <img src="images/linkedin.svg" alt="Logo_Linkedln" class="copyright__Logo_Linkedln">
+        </a>
+        <a href="https://github.com/Tachuelin" rel="">
+            <img src="images/github.svg" alt="Logo_Github" class="copyright__Logo_Github">
+        </a>
+     </footer>
+
+     <!--Script-->
+     <script src="scripts/encriptador.js"></script>
+    
+</body>
+</html>
